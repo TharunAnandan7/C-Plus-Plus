@@ -9,7 +9,7 @@ int fib(int n) {
         res[0] = res[1];
         res[1] = res[2];
     }
-    return res[1];
+    return res[0]; // actual fibonnaci seequence for fib(0) is 0 (zero)
 }
 int main() {
     int n;
